@@ -16,4 +16,7 @@ public class Actor {
     public void setAge(int age) {
         this.age = age;
     }
+    public void getDetails(){
+        System.out.println("Name "+ name+ " Age "+age+" Gender "+gender);
+    }
 }

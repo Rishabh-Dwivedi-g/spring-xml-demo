@@ -7,7 +7,7 @@ public class Movie {
         this.actorObj = actorObj;
     }
 
-    public Actor getActorDetails(){
-        return actorObj;
+    public void getActorDetails(){
+        actorObj.getDetails();
     }
 }

@@ -8,7 +8,8 @@ public class Main {
     public static void main(String[] args){
         ApplicationContext getMovieObj=new ClassPathXmlApplicationContext("beans.xml");
         Movie movie=getMovieObj.getBean("movieBean",Movie.class);
-        System.out.println(movie.getActorDetails());
+        movie.getActorDetails();
+        System.out.println("hello");
     }
 
 }
