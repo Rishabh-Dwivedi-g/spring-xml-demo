@@ -1,5 +1,5 @@
 package com.stackroute.domain;
-
+@Component
 public class Actor {
     private String name;
     private String gender;
@@ -16,7 +16,8 @@ public class Actor {
     public void setAge(int age) {
         this.age = age;
     }
-    public void getDetails(){
-        System.out.println("Name "+ name+ " Age "+age+" Gender "+gender);
+    public String getDetails(){
+        
+        return "Name "+ name+ " Age "+age+" Gender "+gender;
     }
 }
