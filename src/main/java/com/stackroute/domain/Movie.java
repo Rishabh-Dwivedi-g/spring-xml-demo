@@ -1,5 +1,5 @@
 package com.stackroute.domain;
-
+@Component
 public class Movie {
     private Actor actorObj;
 
