@@ -10,7 +10,6 @@ public class Main {
         AbstractApplicationContext getMovieObj=new ClassPathXmlApplicationContext("beans.xml");
         Movie movie1=getMovieObj.getBean("movieBean1",Movie.class);
         movie1.getActorDetails();
-       // System.out.println(movie==movie1);
         getMovieObj.registerShutdownHook();
     }
 
