@@ -11,8 +11,8 @@ public class Actor {
         this.name=name;
     }
 
-    public void getDetails(){
-        System.out.println(name+" "+ age+" "+gender );
+    public String getDetails(){
+         return name+" "+ age+" "+gender;
     }
 
 }
